@@ -1,11 +1,71 @@
 <!DOCTYPE html>
 <html>
+  <style>
+    h1 {
+      text-align: center;
+    }
+    footer {
+      padding: 10px;
+      background-color:powderblue;
+    }
+    .row-container {
+      display: flex;
+    }
+    .left-box {
+      background-color: lightblue;
+      width: 50%;
+      height: 50%;
+    }
+    .right-box {
+      background-color: white;
+      width: 50%;
+      height: 50%;
+    }
+    .center {
+      text-align: center;
+    }
+    .contact-text {
+      font-family: Verdana;
+    }
+    .content {
+      text-align: center;
+    }
+    .logo-row {
+      padding: 10px;
+    }
+    .logos {
+      height: 32px;
+    }
+  </style>
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Wayne Lam</title>
   </head>
   <body>
-  <h1>
+    <h1>Wayne Lam's Personal Website</h1>
+    <div class="container">
+      <div class="row-container">
+        <div class="left-box center">
+          Projects
+        </div>
+        <div class="right-box center">
+          Descriptions
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="center contact-text">
+        Contact Me:
+      </div>
+      <div class="center logo-row">
+        <a href="https://github.com/wplam107">
+          <img src="assets/logos/GitHub-Mark-32px.png" class="logos">
+        </a>
+        <a href="https://www.linkedin.com/in/wayne-lam-5728741a2/">
+          <img src="assets/logos/LI-In-Bug.png" class="logos">
+        </a>
+      </div> 
+    </footer>
   </body>
 </html>
